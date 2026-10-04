@@ -107,3 +107,7 @@ export function LanguageFlag({ language }: { language: "es" | "en" }) {
     </svg>
   );
 }
+
+export function BrandMark({ size = 40 }: { size?: number }) {
+  return <img src={new URL("../assets/pacific-logo.png", import.meta.url).href} width={size} height={size} alt="Pacific Code Labs" className="shrink-0 object-contain" />;
+}

@@ -1,0 +1,204 @@
+{
+  "categories": {
+    "global": {
+      "colorSchemeMode": "DYNAMIC",
+      "spacingDensity": "REGULAR",
+      "pageHeader": {
+        "enabled": false
+      },
+      "pageFooter": {
+        "enabled": false
+      }
+    },
+    "form": {
+      "languageSelector": {
+        "enabled": true
+      },
+      "displayGraphics": false,
+      "location": {
+        "horizontal": "CENTER",
+        "vertical": "CENTER"
+      }
+    }
+  },
+  "components": {
+    "form": {
+      "borderRadius": 20,
+      "logo": {
+        "enabled": true,
+        "location": "CENTER",
+        "position": "TOP",
+        "formInclusion": "IN"
+      },
+      "lightMode": {
+        "backgroundColor": "ffffffff",
+        "borderColor": "e1e7efff"
+      },
+      "darkMode": {
+        "backgroundColor": "0e1525ff",
+        "borderColor": "1c2740ff"
+      }
+    },
+    "pageBackground": {
+      "image": {
+        "enabled": true
+      },
+      "lightMode": {
+        "color": "f8fafcff"
+      },
+      "darkMode": {
+        "color": "090e1aff"
+      }
+    },
+    "pageText": {
+      "lightMode": {
+        "bodyColor": "0f1729ff",
+        "headingColor": "0f1729ff",
+        "descriptionColor": "566e8fff"
+      },
+      "darkMode": {
+        "bodyColor": "f1f5f9ff",
+        "headingColor": "f1f5f9ff",
+        "descriptionColor": "8095b2ff"
+      }
+    },
+    "primaryButton": {
+      "lightMode": {
+        "defaults": {
+          "backgroundColor": "2463ebff",
+          "textColor": "ffffffff"
+        },
+        "hover": {
+          "backgroundColor": "2463ebff",
+          "textColor": "ffffffff"
+        },
+        "active": {
+          "backgroundColor": "2463ebff",
+          "textColor": "ffffffff"
+        }
+      },
+      "darkMode": {
+        "defaults": {
+          "backgroundColor": "447aeeff",
+          "textColor": "ffffffff"
+        },
+        "hover": {
+          "backgroundColor": "447aeeff",
+          "textColor": "ffffffff"
+        },
+        "active": {
+          "backgroundColor": "447aeeff",
+          "textColor": "ffffffff"
+        }
+      }
+    },
+    "secondaryButton": {
+      "lightMode": {
+        "defaults": {
+          "backgroundColor": "eaf0f6ff",
+          "textColor": "0f1729ff",
+          "borderColor": "e1e7efff"
+        },
+        "hover": {
+          "backgroundColor": "eaf0f6ff",
+          "textColor": "0f1729ff",
+          "borderColor": "e1e7efff"
+        },
+        "active": {
+          "backgroundColor": "eaf0f6ff",
+          "textColor": "0f1729ff",
+          "borderColor": "e1e7efff"
+        }
+      },
+      "darkMode": {
+        "defaults": {
+          "backgroundColor": "1c2740ff",
+          "textColor": "f1f5f9ff",
+          "borderColor": "1c2740ff"
+        },
+        "hover": {
+          "backgroundColor": "1c2740ff",
+          "textColor": "f1f5f9ff",
+          "borderColor": "1c2740ff"
+        },
+        "active": {
+          "backgroundColor": "1c2740ff",
+          "textColor": "f1f5f9ff",
+          "borderColor": "1c2740ff"
+        }
+      }
+    }
+  },
+  "componentClasses": {
+    "buttons": {
+      "borderRadius": 12
+    },
+    "input": {
+      "borderRadius": 12,
+      "lightMode": {
+        "defaults": {
+          "backgroundColor": "f8fafcff",
+          "borderColor": "e1e7efff"
+        },
+        "placeholderColor": "566e8fff"
+      },
+      "darkMode": {
+        "defaults": {
+          "backgroundColor": "090e1aff",
+          "borderColor": "1c2740ff"
+        },
+        "placeholderColor": "8095b2ff"
+      }
+    },
+    "inputLabel": {
+      "lightMode": {
+        "textColor": "0f1729ff"
+      },
+      "darkMode": {
+        "textColor": "f1f5f9ff"
+      }
+    },
+    "inputDescription": {
+      "lightMode": {
+        "textColor": "566e8fff"
+      },
+      "darkMode": {
+        "textColor": "8095b2ff"
+      }
+    },
+    "focusState": {
+      "lightMode": {
+        "borderColor": "2463ebff"
+      },
+      "darkMode": {
+        "borderColor": "447aeeff"
+      }
+    },
+    "link": {
+      "lightMode": {
+        "defaults": {
+          "textColor": "2463ebff"
+        },
+        "hover": {
+          "textColor": "2463ebff"
+        }
+      },
+      "darkMode": {
+        "defaults": {
+          "textColor": "447aeeff"
+        },
+        "hover": {
+          "textColor": "447aeeff"
+        }
+      }
+    },
+    "divider": {
+      "lightMode": {
+        "borderColor": "e1e7efff"
+      },
+      "darkMode": {
+        "borderColor": "1c2740ff"
+      }
+    }
+  }
+}
